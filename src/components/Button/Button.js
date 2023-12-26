@@ -7,6 +7,7 @@ function Button({ className = '', ...delegated }) {
     <button
       className={`${styles.button} ${className}`}
       {...delegated}
+      
     />
   );
 }
