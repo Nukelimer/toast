@@ -28,7 +28,7 @@ function ToastProvider() {
 
   useEffect(() => {
     const deleteByESC = (event) => { 
-      console.log(event);
+   
      if (event.key === 'Escape' || event.key === 'Tab') {
       setToast([])
      }
